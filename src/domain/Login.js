@@ -73,12 +73,12 @@ const Login = () => {
                           Remember me
                         </label>
                       </div>
-                      <a href="#">Forgot Password</a>
+                      <a>Forgot Password</a>
                     </div>
 
                     <div className="form-group">
                       <div className="btn text-black" onClick={handleLogin}>
-                        <a href="#">Login</a>
+                        <a>Login</a>
                       </div>
                     </div>
                   </div>
