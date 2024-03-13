@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./login.css";
 import loginImage from "../assets/loginImage.svg";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -73,12 +73,12 @@ const Login = () => {
                           Remember me
                         </label>
                       </div>
-                      <a>Forgot Password</a>
+                      <Link to="#">Forgot Password</Link>
                     </div>
 
                     <div className="form-group">
                       <div className="btn text-black" onClick={handleLogin}>
-                        <a>Login</a>
+                        <Link to="#">Login</Link>
                       </div>
                     </div>
                   </div>
